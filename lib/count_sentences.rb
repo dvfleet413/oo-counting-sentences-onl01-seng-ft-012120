@@ -9,7 +9,9 @@ class String
   end
 
   def question?
-
+    words = self.split
+    last_word = words.last 
+    last_word.end_with?('?')
   end
 
   def exclamation?

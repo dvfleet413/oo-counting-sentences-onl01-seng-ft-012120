@@ -5,7 +5,7 @@ class String
   def sentence?
     words = self.split
     last_word = words.last 
-    last_word.ends_with?('.')
+    last_word.end_with?('.')
   end
 
   def question?
